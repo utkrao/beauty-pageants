@@ -175,7 +175,7 @@ body {
 }
 
 .speciality .box-container .box {
-    flex: 1 1 25rem;
+    flex: 1 1 29rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -200,6 +200,7 @@ body {
     padding: 2rem;
     bottom: 100%;
     position: absolute;
+    transition: all .3s ease-out;
 }
 
 .speciality .box-container .box .content img {
