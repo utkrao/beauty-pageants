@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/media.css">
+    <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+    <title>Wanderer Travels</title>
+</head>
+
+<body>
+    <nav class="fixed-top">
+        <div class="logo">
+            <div>Wanderer Travels</div>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#" onclick="uncheck()">Home</a></li>
+            <li><a href="#about" onclick="uncheck()">About</a></li>
+            <li><a href="#contact" onclick="uncheck()">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="overflow">
+        <div id="slider">
+            <figure>
+                <img src="austin-fireworks.jpg" alt>
+                <img src="taj-mahal_copy.jpg" alt>
+                <img src="https://www.planetware.com/wpimages/2020/11/europe-top-attractions-eiffel-tower.jpg" alt>
+                <img src="ankor-wat.jpg" alt>
+                <img src="austin-fireworks.jpg" alt>
+            </figure>
+        </div>
+    </section>
+
+    <scetion class="grid-container">
+        <div class="image">
+            <img src="https://www.hilton.com/im/en/NoHotel/15196649/shutterstock-1041475570.jpg?impolicy=crop&cw=4541&ch=3333&gravity=NorthWest&xposition=229&yposition=0&rw=582&rh=427" alt="Travels">
+        </div>
+        <div class="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus vitae vero repellendus suscipit numquam, nobis, explicabo a commodi, eveniet impedit itaque ad in quis voluptatum ipsa voluptate officia! Veniam. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Totam temporibus vitae vero repellendus suscipit numquam, nobis, explicabo a commodi, eveniet impedit itaque ad in quis voluptatum ipsa voluptate officia! Veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Totam temporibus vitae vero repellendus suscipit numquam, nobis, explicabo a commodi, eveniet impedit itaque ad in quis voluptatum ipsa voluptate officia! Veniam.
+        </div>
+        </div>
+    </scetion>
+
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container" id="contact">
+                <h2>Contact Form</h2>
+            </div>
+            <form>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>First name</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="first_name" placeholder="Peter" required />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Last name</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="text" name="last_name" placeholder="Parker" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>Email</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                            <input type="email" name="email" placeholder="peterparker@gmail.com" required/>
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Phone</label>
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+                            <input type="tel" name="phone" placeholder="Phone no" pattern="[0-9]{10}" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div>
+                        <label>Comments</label>
+                        <div class="textarea_field"> <span><i aria-hidden="true" class="fa fa-comment"></i></span>
+                            <textarea cols="46" rows="3" name="comments"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <input class="button" type="submit" value="Sumbit" />
+            </form>
+        </div>
+    </div>
+
+    <footer class="foot-text navbackground">
+        Copyright &copy; 2021 All rights reserved!
+    </footer>
+    <script type="text/javascript" src="./src/js/script.js"></script>
+
+</body>
+
+</html>
