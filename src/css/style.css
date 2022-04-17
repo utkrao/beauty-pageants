@@ -390,16 +390,6 @@ textarea:focus {
     color: #000000;
 }
 
-@media (max-width: 600px) {
-    .form_wrapper .col_half {
-        width: 100%;
-        float: none;
-    }
-    .form_wrapper label {
-        margin: 10px 0;
-    }
-}
-
 .foot-text {
     margin-top: 50px;
     height: 30px;
