@@ -21,5 +21,5 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 });
 
 function uncheck() {
-    document.getElementById("onclick").checked = false;
+    document.getElementById("click").checked = false;
 } 
