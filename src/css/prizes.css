@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #222121;
+}
+
+
+/* prizes */
+
+.pri {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.prizes {
+    font-family: 'Poppins', sans-serif;
+    width: 87%;
+    padding: 120px 90px 120px 70px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.prizes h1 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.prizes p {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.prizes input[type="Home"] {
+    font-family: 'Poppins', sans-serif;
+    background: #000000;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(164, 10, 125);
+    font-size: 1.6rem;
+    font-weight: 600;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
+    text-decoration: none;
+}
+
+.prizes input[type="Home"]:hover,
+.prizes input[type="Home"]:focus {
+    background: rgb(164, 10, 125);
+    color: #191818;
+}
